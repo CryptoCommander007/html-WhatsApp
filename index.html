@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú con Barra de Navegación</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradiente de fondo */
+        }
+        .navbar {
+            background-color: #000; /* Color negro para la barra */
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #575757; /* Color al pasar el cursor */
+        }
+
+               /* Estilos para el botón de WhatsApp */
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #17a523;
+            border-radius: 50px;
+            padding: 10px;
+        }
+        .whatsapp-button i {
+            font-size: 50px;
+            color: white;
+        }
+
+
+
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- Barra de Navegación -->
+    <div class="navbar">
+        <a href="#home">Inicio</a>
+        <a href="#services">Servicios</a>
+        <a href="#contact">Contacto</a>
+        <a href="#about">Sobre Nosotros</a>
+    </div>
+
+    <!-- Contenido de la página -->
+    <div style="padding: 20px;">
+        <h1>pagina web de ejemplo</h1>
+        <p>boton wasap</p>
+    </div>
+
+
+    <a href="https://api.whatsapp.com/send?phone=56912345678&text=Un%20saludo,%20quisiera%20obtener%20más%20información%20acerca%20del%20servicio%20de..." 
+       class="whatsapp-button" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+
+</body>
+</html>
